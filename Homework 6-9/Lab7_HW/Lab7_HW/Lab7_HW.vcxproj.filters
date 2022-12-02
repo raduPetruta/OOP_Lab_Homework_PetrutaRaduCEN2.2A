@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="T7.1">
+      <UniqueIdentifier>{9db3b840-5304-4c56-aced-d614fda62584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="T7.2">
+      <UniqueIdentifier>{f2a84b8d-294c-4e86-a5e3-98e13b4b1aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="T7.3">
+      <UniqueIdentifier>{ccff4081-07d2-4e3f-813d-09a6aa28df75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lab7_HW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hummer.cpp">
+      <Filter>T7.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Carriage.cpp">
+      <Filter>T7.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Wheel.cpp">
+      <Filter>T7.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>T7.2</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>T7.3</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>T7.3</Filter>
+    </ClCompile>
+    <ClCompile Include="GarageManager.cpp">
+      <Filter>T7.3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hummer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carriage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wheel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GarageManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
